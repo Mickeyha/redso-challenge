@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/main_navigation"
+            app:startDestination="@id/navigation_rangers">
+
+    <fragment android:id="@+id/navigation_dynamo" android:name="com.example.redsochallenge.ui.DynamoFragment"
+              android:label="DynamoFragment"/>
+    <fragment android:id="@+id/navigation_elastic" android:name="com.example.redsochallenge.ui.ElasticFragment"
+              android:label="ElasticFragment"/>
+    <fragment android:id="@+id/navigation_rangers" android:name="com.example.redsochallenge.ui.RangersFragment"
+              android:label="RangersFragment"/>
+</navigation>
